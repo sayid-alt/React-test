@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #000300;
+}
+
+@layer components {
+  .btn{
+    @apply bg-[#00df9a] py-2 px-5 w-auto rounded-md text-black duration-200 ease-in-out font-medium hover:bg-[#009566]
+  }
+
+  .btn-reverse{
+    @apply text-[#00df9a] p-2 w-[200px] rounded-md bg-black duration-200 ease-in-out font-medium hover:bg-[#2a2a2a]
+  }
+
+  .container{
+    @apply w-full py-16 px-4 mx-auto max-w-7xl
+  }
+
+  .logo-app{
+    @apply w-full cursor-pointer text-3xl font-bold uppercase text-[#00df9a]
+  }
+
+ 
+}

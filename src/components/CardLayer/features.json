@@ -1,0 +1,26 @@
+[
+	{
+	  userType: "Single User",
+	  image: Single,
+	  price: "149",
+	  feature_1: "500 GB Storage",
+	  feature_2: "1 User Allowed",
+	  feature_3: "Send up to 2GB",
+	},
+	{
+	  userType: "Double User",
+	  image: Double,
+	  price: "149",
+	  feature_1: "500 GB Storage",
+	  feature_2: "1 User Allowed",
+	  feature_3: "Send up to 2GB",
+	},
+	{
+	  userType: "Triple User",
+	  image: Triple,
+	  price: "149",
+	  feature_1: "500 GB Storage",
+	  feature_2: "1 User Allowed",
+	  feature_3: "Send up to 2GB",
+	},
+ ];
